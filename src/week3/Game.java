@@ -1,6 +1,7 @@
 package week3;
 import java.util.Random;
 
+
 class Game {
    private Random random = new Random();
    int secret = random.nextInt(10) + 1; //Secret is assigned from a value between 1-10
